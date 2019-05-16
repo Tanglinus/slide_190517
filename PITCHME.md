@@ -73,15 +73,15 @@ Topic models capture co-occurrence of words ate the document level and focus on 
 ### 3. Dynamic embeddings
 @snapend
 ---
-@snap[north-west span-100]
+---?image=assets/img/proc.png&position=right&size=contain
+@snap[west span-50]
 ### 3. Dynamic embeddings
 @snapend
----?image=assets/img/proc.png&position=right&size=contain
 ---
+---?image=assets/img/algo.png&position=right&size=contain
 @snap[north-west span-70]
 ### 3. Dynamic embeddings
 @snapend
----?image=assets/img/algo.png&position=right&size=contain
 ---
 @snap[west span-100]
 ### 3. Datasets
