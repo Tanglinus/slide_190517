@@ -15,9 +15,11 @@
 - cast word embeddings in a probabilistic framework
 @ulend
 ---
+@snap[west span-100]
 ### Datasets
 @ul[](false)
 - the U.S. Senate speeches from 1858 to 2009
 - the history of computer science ACM abstracts from 1951 to 2014
 - machine learning papers on the ArXiv from 2007 to 2015
 @ulend
+@snapend
