@@ -7,17 +7,21 @@
 @snap[west span-100]
 #### Dynamic Embeddings
 @ul[](false)
-- build on *exponential family embeddings*
+- build on *exponential family embeddings* (a type of EFE)
+  - include dynamics into the *Bernoulli embedding model*
 - [PURPOSE] capture how the meanings of words change over time
-- [RESULT] dynamic embeddings provide better fits than classical embeddings and capture interesting patterns about how language changes
+- [RESULT] D-EMB provide better fits than classical embeddings and capture interesting patterns about how language changes
 @ulend
 @snapend
 ---
 @snap[west span-100]
 #### Exponential Family Embeddings (M. Rudolph et al., 2016)
-@ul[](false)
-- cast word embeddings in a probabilistic framework
-@ulend
+An EFE is a conditional model. It has three ingredients:
+@ol[](false)
+- the context
+- the conditional distribution of each data point
+- the parameter sharing structure
+@olend
 @snapend
 ---
 @snap[west span-100]
@@ -29,22 +33,18 @@
 @ulend
 @snapend
 ---
-@snap[west span-50]
+@snap[west span-100]
 ### related work
 There have been several lines of research around capturing semantic shifts.
-In contrast, the representations in this work for dynamic embeddings are sequential latent variables.
-@snapend
-@snap[east span-50]
 @ul[](false)
-- use features such as POS tags and entropy
-- employ latent semantic analysis and temporal semantic indexing
-- train a separate embedding for each time slice of the data
-  - initialization
-  - ad-hoc alignment techniques to stitch them together
+- use features such as POS tags and entropy; employ latent semantic analysis and temporal semantic indexing
+- train a separate embedding for each time slice of the data (initialization or ad-hoc alignment techniques to stitch them together)
 @ulend
 @snapend
 ---
 @snap[west span-100]
+### related work
+In contrast, the representations in this work for dynamic embeddings are sequential latent variables.
 @snapend
 ---
 @snap[west span-100]
