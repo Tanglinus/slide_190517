@@ -9,10 +9,12 @@
 @ul[](false)
 - build on *exponential family embeddings* (a type of EFE)
   - include dynamics into the *Bernoulli embedding model*
-- [PURPOSE] capture how the meanings of words change over time
+- [PURPOSE] analyze documents that span many years, where the way words are used changes over the course of the collection
 - [RESULT] D-EMB provide better fits than classical embeddings and capture interesting patterns about how language changes
 @ulend
 @snapend
+---
+![example1](assets/img/img1.png)
 ---
 @snap[west span-100]
 #### Exponential Family Embeddings (M. Rudolph et al., 2016)
