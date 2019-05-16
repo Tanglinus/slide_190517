@@ -5,19 +5,19 @@
 @snapend
 ---
 @snap[west span-100]
-#### 1. Dynamic Embeddings
+#### 1. Introduction
 @ul[](false)
-- [PURPOSE] analyze documents that span many years, where the way words are used changes over the course of the collection
+- [PURPOSE] dynamic embeddings (D-EMB) analyze documents that span many years, where the way words are used changes over the course of the collection
 - [RESULT] D-EMB provide better predictive performance than classical embeddings and capture interesting patterns about how language changes
 @ulend
 @snapend
 ---
 @snap[west span-100]
-#### 1. Dynamic Embeddings
+#### 1. Introduction
 @ul[](false)
-- build on *exponential family embeddings* (a type of EFE)
+- build on *exponential family embeddings*
   - include dynamics into the *Bernoulli embedding model*
-- D-EMB cast the embedding vector as a latent variable that drifts via a Gaussian random walk
+- cast the embedding vector as a latent variable that drifts via a Gaussian random walk
 - when fit to data, the D-EMB capture how the representation of each word drift from slice to slice (one per year)
 @ulend
 @snapend
@@ -49,6 +49,40 @@ In contrast, the representations in this work for dynamic embeddings are sequent
 Two similar models:
 ![ref1](assets/img/ref1.png)
 ![ref2](assets/img/ref2.png)
+@snapend
+---
+@snap[west span-100]
+### 2. related work
+Another area of related work is dynamic topic models.
+@ul[](false)
+- describe documents in terms of topics, which are distributions over the vocabulary, and then allows the topics to change
+- some dynamic topic models also use a Gaussian random walk to capture drift in the underlying language model
+@ulend
+Topic models capture co-occurrence of words ate the document level and focus on heterogeneity. Word embeddings capture co-occurrence in terms of proximity in the text.
+@snapend
+---
+@snap[west span-100]
+### 3. Dynamic embeddings
+@snapend
+---
+@snap[west span-100]
+### 3. Dynamic embeddings
+@snapend
+---
+@snap[west span-100]
+### 3. Dynamic embeddings
+@snapend
+---
+@snap[west span-100]
+### 3. Dynamic embeddings
+![proc1](assets/img/proc.png)
+@snapend
+---
+@snap[north-west span-50]
+### 3. Dynamic embeddings
+@snapend
+@snap[east span-50]
+![algo1](assets/img/algo.png)
 @snapend
 ---
 @snap[west span-100]
