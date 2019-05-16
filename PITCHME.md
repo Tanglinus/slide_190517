@@ -6,9 +6,11 @@
 ---
 @snap[west span-100]
 #### Dynamic Embeddings
+@ul[](false)
 - build on _exponential family embeddings_
 - [PURPOSE] capture how the meanings of words change over time
 - [RESULT] dynamic embeddings provide better fits than classical embeddings and capture interesting patterns about how language changes
+@ulend
 @snapend
 ---
 @snap[west span-100]
@@ -27,9 +29,12 @@
 @ulend
 @snapend
 ---
-@snap[west span-100]
+@snap[west span-50]
 ### related work
 There have been several lines of research around capturing semantic shifts.
+In contrast, the representations in this work for dynamic embeddings are sequential latent variables.
+@snapend
+@snap[east span-50]
 @ul[](false)
 - use features such as POS tags and entropy
 - employ latent semantic analysis and temporal semantic indexing
@@ -37,7 +42,6 @@ There have been several lines of research around capturing semantic shifts.
   - initialization
   - ad-hoc alignment techniques to stitch them together
 @ulend
-In contrast, the representations in this work for dynamic embeddings are sequential latent variables.
 @snapend
 ---
 @snap[west span-100]
