@@ -7,7 +7,7 @@
 @snap[west span-100]
 #### Dynamic Embeddings
 @ul[](false)
-- build on _exponential family embeddings_
+- build on *exponential family embeddings*
 - [PURPOSE] capture how the meanings of words change over time
 - [RESULT] dynamic embeddings provide better fits than classical embeddings and capture interesting patterns about how language changes
 @ulend
