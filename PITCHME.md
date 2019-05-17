@@ -28,18 +28,7 @@
 ![example1](assets/img/img1.png)
 ---
 @snap[north-west span-100]
-#### 1.1 Exponential Family Embeddings (M. Rudolph et al., 2016)
-An EFE is a conditional model. It has three ingredients:
-@ol[](false)
-- the context
-- the conditional distribution of each data point
-- the parameter sharing structure
-@olend
-@snapend
-<!-- page intro 3 -->
----
-@snap[north-west span-100]
-### 2. related work
+### 1.1 related work
 There have been several lines of research around capturing semantic shifts.
 @ul[](false)
 - use features such as POS tags and entropy; employ latent semantic analysis and temporal semantic indexing
@@ -49,7 +38,7 @@ There have been several lines of research around capturing semantic shifts.
 <!-- page related work 1 -->
 ---
 @snap[north-west span-100]
-### 2. related work
+### 1.1 related work
 In contrast, the representations in this work for dynamic embeddings are sequential latent variables.
 Two similar models:
 ![ref1](assets/img/ref1.png)
@@ -58,14 +47,14 @@ Two similar models:
 <!-- page related work 2 -->
 ---
 @snap[north-west span-100]
-### 2. related work
+### 1.1 related work
 Another area of related work is dynamic topic models.
 @ul[](false)
 - describe documents in terms of topics, which are distributions over the vocabulary, and then allows the topics to change
 - some dynamic topic models also use a Gaussian random walk to capture drift in the underlying language model
 @ulend
-Topic models capture co-occurrence of words ate the document level and focus on heterogeneity. Word embeddings capture co-occurrence in terms of proximity in the text.
 @snapend
+<!--Topic models capture co-occurrence of words at the document level and focus on heterogeneity. Word embeddings capture co-occurrence in terms of proximity in the text. -->
 <!-- page related work 3 -->
 ---
 @snap[west span-100]
@@ -73,22 +62,26 @@ Topic models capture co-occurrence of words ate the document level and focus on 
 @snapend
 <!-- page method -->
 ---
-@snap[north-west span-100]
+@snap[west span-100]
 #### 2.1 Bernoulli embeddings for texts
 @snapend
 ---
 @snap[west span-100]
-### 3. Dynamic embeddings
+#### 2.2 Dynamic Bernoulli embeddings
 @snapend
-<!-- page method -->
 ---?image=assets/img/proc.png&position=right&size=contain
-@snap[west span-50]
-### 3. Dynamic embeddings
+@snap[west span-30]
+##### Graphical representation
 @snapend
 <!-- page method procedure -->
+---
+@snap[west span-100]
+#### 2.3 Fitting dynamic embeddings
+@snapend
+<!-- page method -->
 ---?image=assets/img/algo.png&position=right&size=contain
-@snap[north-west span-70]
-### 3. Dynamic embeddings
+@snap[north-west span-30]
+##### Pseudo Algorithm
 @snapend
 <!-- page method algorithm -->
 ---
@@ -122,11 +115,10 @@ At that position, a better model assigns higher probability to the observed word
 
 ![metric1](assets/img/metric1.png)
 @snapend
----
-@snap[north-west span-100]
+---?image=assets/img/result1.png&position=right&size=contain
+@snap[north-west span-50]
 #### 3.2 quantitative evaluation
 @snapend
-![result1](assets/img/result1.png)
 ---
 @snap[north-west span-100]
 #### 3.3 qualitative exploration
